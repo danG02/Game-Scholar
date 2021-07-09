@@ -2,6 +2,32 @@ p {
     color: red;
 }
 
+#title {
+    text-align: center;
+}
+
 #test {
     color: green;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+  }
+
+li {
+    display: table; /* Makes button vertical*/ 
+    width: 285px; /* Sets button all the same size*/ 
+    font-size: 34px;
+    padding: 20px;
+    text-decoration: none;
+    border: solid;
+    margin: 10px 0; /* Sets space between buttons*/ 
+}
+li:hover {
+    font-size: 45px;
+}
+
+.label {
+    text-align: center;
 }
