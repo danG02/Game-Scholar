@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
     <head>
+        {% load static %}
         <title>Design #1</title>
-        <link rel="stylesheet" href="study.css">
+        <link rel="stylesheet" href="{% static 'css/study.css' %}">
         <meta charset="UTF-8">
     </head>
     <body>
         <h1 id="title">Classroom List 🎮</h1>
 
-        <a href="index.html">
-            <img src="Icons/home.png">
+        <a href="../">
+            <img src="{% static 'icons/home.png' %}">
         </a>
         
     </body>
