@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% load static %}
+        <title>Design #1</title>
+        <link rel="stylesheet" href="{% static 'css/style.css' %}">
+        <meta charset="UTF-8">
+        
+    </head>
+
+    <body>
+        <h1 id="title">The Game 🎮</h1>
+        <div id="navbar">
+            <ul id="options">
+                <li class="label" id="list"><a href="list/">Classroom List</a></li>
+                <li class="label" id="shop"><a href="shop/">Shop</a></li>
+                <li class="label" id="achieve"><a href="achieve/">Achivements</a></li>
+                <li class="label" id="study"><a href="study/">Studying</a></li>
+                <li class="label" id="custom"><a href="custom/">Customization</a></li>
+            </ul>
+        </div>
+
+        <div id="todoBox">
+            <h2>To Do List</h2>
+            <input type="text" id="myInput" placeholder="Title...">
+            <span onclick="newElement()" class="addBtn">Add</span>
+        </div>
+
+        <ul id="TodoUL">
+            <li class="todo">Hit the gym</li>
+            <li id="checked" class="todo">Pay bills</li>
+            <li class="todo">Meet George</li>
+            <li class="todo">Buy eggs</li>
+            <li class="todo">Read a book</li>
+            <li class="todo">Organize office</li>
+        </ul>
+
+    </body>
+
+    <script src="{% static 'js/script.js' %}"></script>
+
+</html>
