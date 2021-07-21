@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#title {
+    text-align: center;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    padding: 70px;
+}
+
+.badge {
+    background-image: url(Photo_Holders/pic.jpg);
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+}
+
+.badge .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+  .badge:hover .tooltiptext {
+    visibility: visible;
+  }

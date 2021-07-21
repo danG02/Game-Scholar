@@ -10,6 +10,7 @@
 
 #title {
     text-align: center;
+    padding-bottom: 5%;
 }
 
 .tab {
@@ -108,7 +109,7 @@ background: transparent;
 transform: rotateY(180deg);
 overflow: hidden;
 -webkit-backface-visibility: hidden;
-background-image: linear-gradient(#2fbcc5, #302271);
+background-image: linear-gradient(darkred,yellow);
 }
 
 .SourceButton, 
@@ -159,7 +160,7 @@ right: 0;
 }
 
 #head1 {
-background-image: linear-gradient(#2fbcc5, #302271);
+background-image: linear-gradient(darkred,yellow);
 height: 20%;
 text-align: center;
 padding-top: 5%;
