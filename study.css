@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: fantasy;
+}
+
+a {
+    text-decoration: none;
+}
+
+#title {
+    text-align: center;
+    color: #690908;
+}
+
+.learn {
+    text-align: center;
+    padding-top: 50px;
+    color: #690908;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+td {
+    padding: 1%;
+}
+
+.vidBox {
+    height: 160px;
+    width: 240px;
+    background-color: #690908;
+    margin: 15px;
+    margin-left: 50px;
+}
+
+.vidBox:hover {
+    cursor: pointer;
+}
+
+.vidPrice {
+    text-align: center;
+    padding: 2px;
+    border: #690908 1px solid;
+    width: 100px;
+    position: relative;
+    left: 28%;
+    padding: 1%;
+}
+
+.vidPrice:hover {
+    background-color: gold;
+}
+
+.vidTitle {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 160px;
+    color: #EFE4DA;
+}
+
+.readBox {
+    width: 900px;
+    height: 200px;
+    background-color: #E88A1E;
+    margin: 0 auto;
+    right: 25%;
+    margin-top: 5%;
+    overflow: scroll;
+    position: relative;
+    left: 20px;
+}
+
+
+.bookPic {
+    width: 125px;
+    height: 150px;
+    padding: 10px;
+    padding-left: 10px;
+    
+}
+
+.priceBox {
+    width: 100px;
+    height: 20px;
+    background-color: gold;
+    border-radius: 10%;
+    text-align: center;
+    position: relative;
+    left: 20px;
+}
+
+.priceBox:hover {
+    opacity: 40%;
+    cursor: pointer;
+}
+
+.price {
+    font-size: 16px;
+}
+
+
+.sum {
+    font-size: 16px;
+    text-align: justify;
+    max-width: 500px;
+    position: relative;
+    bottom: 150px;
+    left: 300px;
+    line-height: 1.5;
+}

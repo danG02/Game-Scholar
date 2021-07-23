@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: fantasy;
 }
 
 #home {
@@ -8,9 +9,15 @@
     width: 100px;
 }
 
+a {
+  text-decoration: none;
+}
+
 #title {
     text-align: center;
     padding-bottom: 5%;
+    text-decoration: none;
+    color: #690908;
 }
 
 .tab {
@@ -47,7 +54,7 @@ width: 100%;
 height: 100%;
 transform-style: preserve-3d;
 transition: all 0.8s ease;
-border: 5px solid black;
+border: 1px solid black;
 backface-visibility: hidden;
 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
@@ -68,10 +75,33 @@ background: transparent;
 backface-visibility: hidden;
 overflow: hidden;
 -webkit-backface-visibility: hidden;
-background-image: url("Pictures/RPS_Icon.png");
 background-size: 190px;
 background-repeat: no-repeat;
 background-position: bottom;
+}
+
+#face1 {
+  background-image: url("ShopPhotos/set_of_headphone_elements_vector_521726/headphone_02.jpg");
+}
+
+#face2 {
+  background-image: url("ShopPhotos/impossible-701686_1920.jpg");
+}
+
+#face3 {
+  background-image: url("ShopPhotos/sun-47083_1280.png");
+}
+
+#face4 {
+  background-image: url("ShopPhotos/gold-158496_1280.png");
+}
+
+#face5 {
+  background-image: url("ShopPhotos/bird-2724144_1280.png");
+}
+
+#face6 {
+  background-image: url("ShopPhotos/ticket-306087_1280.png");
 }
 
 .front2 {
@@ -82,7 +112,6 @@ background: transparent;
 backface-visibility: hidden;
 overflow: hidden;
 -webkit-backface-visibility: hidden;
-background-image: url("Pictures/Tetris_App_Icon.png");
 background-size: 190px;
 background-repeat: no-repeat;
 background-position: bottom;
@@ -97,7 +126,7 @@ background: transparent;
 transform: rotateY(180deg);
 overflow: hidden;
 -webkit-backface-visibility: hidden;
-background-image: linear-gradient(#2fbcc5, #302271);
+background-image: linear-gradient(#BA8986,#EFE4DA);
 }
 
 .back {
@@ -109,18 +138,17 @@ background: transparent;
 transform: rotateY(180deg);
 overflow: hidden;
 -webkit-backface-visibility: hidden;
-background-image: linear-gradient(darkred,yellow);
+background-image: linear-gradient(#BA8986,#EFE4DA);
 }
 
-.SourceButton, 
-.DemoButton {
+.Buy {
 padding: 12px 28px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
 font-size: 14px;
-background-color: #2fbcc5;
-border-radius: 100%;
+background-color: gold;
+border-radius: 10%;
 margin: 0;
 position: absolute;
 max-width: 100px;
@@ -128,16 +156,11 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 transition-duration: 0.4s;
 }
 
-.SourceButton:hover, 
-.DemoButton:hover {
+.Buy:hover {
 background-color: white;;
 } 
-.SourceButton {
-top: 35%;
-left: 30%;
-}
 
-.DemoButton {
+.Buy {
 top: 65%;
 left: 30%;
 
@@ -160,7 +183,7 @@ right: 0;
 }
 
 #head1 {
-background-image: linear-gradient(darkred,yellow);
+background-image: linear-gradient(#BA8986,#EFE4DA);
 height: 20%;
 text-align: center;
 padding-top: 5%;
@@ -168,7 +191,7 @@ color: black;
 }
 
 #head2 {
-background-image: linear-gradient(#2fbcc5, #302271);
+background-image: linear-gradient(#BA8986,#EFE4DA);
 height: 20%;
 text-align: center;
 padding-top: 5%;

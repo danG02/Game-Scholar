@@ -4,10 +4,12 @@
         <title>Design #1</title>
         <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
+        <link rel="icon" href="Icons/Game Scholar (1).png" type="image/png">
     </head>
 
     <body>
-        <h1 id="title">GameScholar 🃏</h1>
+        <img src="Icons/Game Scholar (1).png" alt="logo of our game" id="logo">
+        <h1 id="title">GameScholar</h1>
         <div id="navbar">
             <ul id="options">
                 <li class="label" id="list"><a href="list.html">Classroom List</a></li>
@@ -19,19 +21,24 @@
         </div>
 
         <div id="todoBox">
-            <h2>To Do List</h2>
-            <input type="text" id="myInput" placeholder="Title...">
-            <span onclick="newElement()" class="addBtn">Add</span>
+            <h2 id="todoTitle">To Do List</h2>
+            <ul>
+                <ol class="todoList"><a href="#"><p class="word" id="done">Read Chapter 3-4</p></a></ol>
+                <li class="resourceList"><a href="#"><p class="word">Science Book</p></a></li>
+                <ol class="todoList"><a href="#"><p class="word" id="done1">Math Hw 7 Section 5</p></a></ol>
+                <li class="resourceList"><a href="#"><p class="word">Lecture 7.5</p></a></li>
+                <ol class="todoList"><a href="#"><p class="word" id="done2">Water Cycle Observation</p></a></ol>
+                <li class="resourceList"><a href="#"><p class="word">Water Cycle Video</p></a></li>
+            </ul>
         </div>
 
-        <ul id="TodoUL">
-            <li class="todo">Hit the gym</li>
-            <li id="checked" class="todo">Pay bills</li>
-            <li class="todo">Meet George</li>
-            <li class="todo">Buy eggs</li>
-            <li class="todo">Read a book</li>
-            <li class="todo">Organize office</li>
-        </ul>
+        <div class="class" id="c1">
+            <p class="name">Science Class</p>
+        </div>
+
+        <div class="class" id="c2">
+            <p class="name">Math Class</p>
+        </div>
 
     </body>
 
