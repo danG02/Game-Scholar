@@ -1,2 +1,4 @@
-# ProtoTest
-Test to see how collaborative works
+# GameScholar
+SOS TechPoint Project
+Team 5
+Topic - Education
