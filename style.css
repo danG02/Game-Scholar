@@ -1,3 +1,117 @@
-p {
-    color: red;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: fantasy;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+#title {
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 5%;
+    position: relative;
+}
+
+#logo {
+  height: 130px;
+  width: 130px;
+  position: absolute;
+  left: 10px;
+}
+
+#test {
+    color: green;
+}
+
+#navbar {
+    overflow: hidden;
+}
+
+
+#options{
+    display: table;
+    margin: 0 auto;
+  }
+
+.label {
+    display: table; /* Makes button vertical*/ 
+    width: 285px; /* Sets button all the same size*/ 
+    font-size: 34px;
+    padding: 20px;
+    border: solid;
+    margin: 10px 0; /* Sets space between buttons*/ 
+    text-align: center;
+    text-decoration: none;
+    color: #F4B818;
+}
+.label:hover {
+    font-size: 45px;
+}
+
+#list #shop #achieve #study #custom {
+  color: white;
+}
+
+#todoBox {
+    height: 500px;
+    width: 350px;
+    background-color: #BA8986;
+    border: black solid 1px;
+    top: 15%;
+    position: absolute;
+    left: 70%;
+}
+
+#todoTitle {
+  text-align: center;
+  padding: 5px;
+  font-size: 25px;
+  color: #690908
+}
+
+.todoList {
+  text-align: center;
+  padding-top: 35px;
+}
+
+.resourceList {
+  text-align: center;
+  list-style-type: none;
+  padding-top: 15px;
+}
+
+.word{
+  font-size: 20px;
+  color: #EFE4DA;
+}
+
+
+
+.class {
+  width: 380px;
+  height: 275px;
+  position: absolute;
+  top: 17%;
+  left: 5%;
+}
+
+#c1 {
+  top: 55%;
+  border: 2px solid #690908;
+}
+
+#c2 {
+  border: 2px solid #E88A1E;
+}
+
+.name {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 275px;  
+  font-size: 45px;
+  color: black;
 }

@@ -1,13 +1,47 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
     <head>
-        <title>Design #1</title>
+        <title>GameScholar</title>
         <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <link rel="icon" href="Icons/Game Scholar (1).png" type="image/png">
     </head>
 
     <body>
-        <p>This is a test please add a line here.</p>
-        <p>Also change theis to another color!</p>
+        <img src="Icons/Game Scholar (1).png" alt="logo of our game" id="logo">
+        <h1 id="title">GameScholar</h1>
+        <div id="navbar">
+            <ul id="options">
+                <li class="label" id="list"><a href="list.html">Classroom List</a></li>
+                <li class="label" id="shop"><a href="shop.html">Shop</a></li>
+                <li class="label" id="achieve"><a href="achieve.html">Achivements</a></li>
+                <li class="label" id="study"><a href="study.html">Studying</a></li>
+                <li class="label" id="custom"><a href="custom.html">Customization</a></li>
+            </ul>
+        </div>
+
+        <div id="todoBox">
+            <h2 id="todoTitle">To Do List</h2>
+            <ul>
+                <ol class="todoList"><a href="#"><p class="word" id="done">Read Chapter 3-4</p></a></ol>
+                <li class="resourceList"><a href="#"><p class="word">Science Book</p></a></li>
+                <ol class="todoList"><a href="#"><p class="word" id="done1">Math Hw 7 Section 5</p></a></ol>
+                <li class="resourceList"><a href="#"><p class="word">Lecture 7.5</p></a></li>
+                <ol class="todoList"><a href="#"><p class="word" id="done2">Water Cycle Observation</p></a></ol>
+                <li class="resourceList"><a href="#"><p class="word">Water Cycle Video</p></a></li>
+            </ul>
+        </div>
+
+        <div class="class" id="c1">
+            <p class="name">Science Class</p>
+        </div>
+
+        <div class="class" id="c2">
+            <p class="name">Math Class</p>
+        </div>
+
     </body>
+
+    <script src="script.js"></script>
 
 </html>
